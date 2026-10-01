@@ -1,0 +1,463 @@
+<!-- ===================== views/partials/about.ejs ===================== -->
+<section id="about" class="pf-section position-relative overflow-hidden py-5" style="background:var(--bg-2);">
+  <!-- Ambient Background Mesh Glows -->
+  <div class="pf-ambient-blob top-blob"></div>
+  <div class="pf-ambient-blob center-blob"></div>
+  <div class="pf-ambient-blob bottom-blob"></div>
+
+  <div class="container position-relative py-4" style="z-index: 2;">
+    
+    <!-- Section Header -->
+    <div class="text-center mx-auto mb-5" style="max-width: 720px;" data-aos="fade-down" data-aos-duration="1000">
+      <div class="pf-badge-pill mb-2">
+        <span class="pulsing-dot"></span> About My Journey
+      </div>
+      <h2 class="pf-gradient-heading display-5 fw-bold mb-3">
+        Background &amp; Architectural Focus
+      </h2>
+      <p class="text-light opacity-75 lead fs-6">
+        Passionate BCA student and backend engineer focused on building robust microservices, resilient API pipelines, and high-performance database schemas.
+      </p>
+    </div>
+    
+    <!-- Interactive 3D Stat Counter Cards -->
+    <div class="row g-4 mb-5">
+      <!-- Stat 1 -->
+      <div class="col-6 col-lg-3" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="100">
+        <div class="pf-card-3d glass-panel p-4 text-center h-100" data-glow-color="rgba(0, 210, 255, 0.35)">
+          <div class="card-glow-tracker"></div>
+          <div class="card-inner-content">
+            <div class="stat-icon-wrapper mb-2" style="color: var(--accent, #00d2ff);">
+              <i class="bi bi-mortarboard fs-2"></i>
+            </div>
+            <div class="pf-stat fs-1 fw-extrabold text-light mb-0" data-counter="4">0</div>
+            <div class="pf-stat-label text-light small text-uppercase mt-1 fw-semibold opacity-75 tracking-wider">
+              Semesters Done
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stat 2 -->
+      <div class="col-6 col-lg-3" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="200">
+        <div class="pf-card-3d glass-panel p-4 text-center h-100" data-glow-color="rgba(58, 123, 213, 0.35)">
+          <div class="card-glow-tracker"></div>
+          <div class="card-inner-content">
+            <div class="stat-icon-wrapper mb-2" style="color: var(--accent-2, #3a7bd5);">
+              <i class="bi bi-code-slash fs-2"></i>
+            </div>
+            <div class="pf-stat fs-1 fw-extrabold text-light mb-0" data-counter="12">0</div>
+            <div class="pf-stat-label text-light small text-uppercase mt-1 fw-semibold opacity-75 tracking-wider">
+              Projects Shipped
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stat 3 -->
+      <div class="col-6 col-lg-3" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="300">
+        <div class="pf-card-3d glass-panel p-4 text-center h-100" data-glow-color="rgba(255, 107, 157, 0.35)">
+          <div class="card-glow-tracker"></div>
+          <div class="card-inner-content">
+            <div class="stat-icon-wrapper mb-2" style="color: #ff6b9d;">
+              <i class="bi bi-briefcase fs-2"></i>
+            </div>
+            <div class="pf-stat fs-1 fw-extrabold text-light mb-0" data-counter="6">0</div>
+            <div class="pf-stat-label text-light small text-uppercase mt-1 fw-semibold opacity-75 tracking-wider">
+              Production Modules
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stat 4 -->
+      <div class="col-6 col-lg-3" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="400">
+        <div class="pf-card-3d glass-panel p-4 text-center h-100" data-glow-color="rgba(40, 167, 69, 0.35)">
+          <div class="card-glow-tracker"></div>
+          <div class="card-inner-content">
+            <div class="stat-icon-wrapper mb-2" style="color: #28a745;">
+              <i class="bi bi-layers fs-2"></i>
+            </div>
+            <div class="pf-stat fs-1 fw-extrabold text-light mb-0" data-counter="15">0</div>
+            <div class="pf-stat-label text-light small text-uppercase mt-1 fw-semibold opacity-75 tracking-wider">
+              Core Tech Tools
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Core Skills & Engineering Philosophy -->
+    <div class="row g-4 align-items-stretch">
+      <!-- Left Column: Skills with Viewport-Triggered Fill & Shimmer -->
+      <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+        <div class="pf-card-3d glass-panel p-4 p-md-5 h-100" data-glow-color="rgba(0, 210, 255, 0.25)">
+          <div class="card-glow-tracker"></div>
+          <div class="card-inner-content">
+            <div class="d-flex align-items-center mb-4">
+              <span class="p-2 rounded-3 me-3 icon-badge bg-info-subtle text-info">
+                <i class="bi bi-cpu fs-4"></i>
+              </span>
+              <h4 class="fw-bold text-light mb-0 fs-4">Core Competencies</h4>
+            </div>
+
+            <!-- Skill 1 -->
+            <div class="skill-group mb-4">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="text-light small fw-medium">Node.js, Express &amp; Microservices</span>
+                <span class="small font-monospace fw-bold text-info">90%</span>
+              </div>
+              <div class="progress pf-progress-container">
+                <div class="progress-bar pf-progress-fill" data-width="90%" style="background: linear-gradient(90deg, #00d2ff, #3a7bd5);">
+                  <div class="progress-shimmer"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 2 -->
+            <div class="skill-group mb-4">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="text-light small fw-medium">Database Architectures (MongoDB, PostgreSQL)</span>
+                <span class="small font-monospace fw-bold text-primary-emphasis">85%</span>
+              </div>
+              <div class="progress pf-progress-container">
+                <div class="progress-bar pf-progress-fill" data-width="85%" style="background: linear-gradient(90deg, #3a7bd5, #9b51e0);">
+                  <div class="progress-shimmer"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 3 -->
+            <div class="skill-group mb-4">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="text-light small fw-medium">RESTful API Design &amp; JWT Authentication</span>
+                <span class="small font-monospace fw-bold text-danger-emphasis">88%</span>
+              </div>
+              <div class="progress pf-progress-container">
+                <div class="progress-bar pf-progress-fill" data-width="88%" style="background: linear-gradient(90deg, #ff6b9d, #3a7bd5);">
+                  <div class="progress-shimmer"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill 4 -->
+            <div class="skill-group">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="text-light small fw-medium">System Scaling, Caching (Redis) &amp; DevOps</span>
+                <span class="small font-monospace fw-bold text-success">75%</span>
+              </div>
+              <div class="progress pf-progress-container">
+                <div class="progress-bar pf-progress-fill" data-width="75%" style="background: linear-gradient(90deg, #20c997, #28a745);">
+                  <div class="progress-shimmer"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Engineering Philosophy with Floating Badges -->
+      <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+        <div class="pf-card-3d glass-panel p-4 p-md-5 h-100 d-flex flex-column justify-content-between" data-glow-color="rgba(58, 123, 213, 0.25)">
+          <div class="card-glow-tracker"></div>
+          <div class="card-inner-content">
+            <div class="d-flex align-items-center mb-4">
+              <span class="p-2 rounded-3 me-3 icon-badge bg-primary-subtle text-primary">
+                <i class="bi bi-diagram-3 fs-4"></i>
+              </span>
+              <h4 class="fw-bold text-light mb-0 fs-4">Engineering Standard</h4>
+            </div>
+            
+            <p class="text-light opacity-75 small mb-4" style="line-height: 1.8;">
+              Committed to clean code patterns, asynchronous optimization, and decoupled services. I treat security, query efficiency, and maintainability as non-negotiable foundations from day one.
+            </p>
+
+            <!-- Feature Interactive Grid -->
+            <div class="row g-3">
+              <div class="col-6">
+                <div class="pf-feature-box p-3 rounded-4 h-100 text-center">
+                  <div class="feature-icon mb-2">
+                    <i class="bi bi-shield-lock-fill text-info fs-3"></i>
+                  </div>
+                  <h6 class="text-light fw-semibold mb-1 fs-6">Zero-Trust Auth</h6>
+                  <span class="text-light opacity-50 extra-small">OAuth2 / JWT / RBAC</span>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="pf-feature-box p-3 rounded-4 h-100 text-center">
+                  <div class="feature-icon mb-2">
+                    <i class="bi bi-speedometer2 text-warning fs-3"></i>
+                  </div>
+                  <h6 class="text-light fw-semibold mb-1 fs-6">Low Latency</h6>
+                  <span class="text-light opacity-50 extra-small">Redis &amp; Query Indexing</span>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="pf-feature-box p-3 rounded-4 h-100 text-center">
+                  <div class="feature-icon mb-2">
+                    <i class="bi bi-database-check text-success fs-3"></i>
+                  </div>
+                  <h6 class="text-light fw-semibold mb-1 fs-6">Schema Integrity</h6>
+                  <span class="text-light opacity-50 extra-small">ACID &amp; Migrations</span>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="pf-feature-box p-3 rounded-4 h-100 text-center">
+                  <div class="feature-icon mb-2">
+                    <i class="bi bi-git text-danger fs-3"></i>
+                  </div>
+                  <h6 class="text-light fw-semibold mb-1 fs-6">CI/CD Driven</h6>
+                  <span class="text-light opacity-50 extra-small">Automated Unit Tests</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===================== STYLES ===================== -->
+<style>
+/* Ambient Mesh Blobs */
+.pf-ambient-blob {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(120px);
+  z-index: 1;
+}
+.top-blob {
+  width: 450px;
+  height: 450px;
+  top: -50px;
+  left: -50px;
+  background: radial-gradient(circle, rgba(0, 210, 255, 0.12) 0%, transparent 70%);
+}
+.center-blob {
+  width: 700px;
+  height: 700px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, rgba(58, 123, 213, 0.12) 0%, transparent 70%);
+}
+.bottom-blob {
+  width: 500px;
+  height: 500px;
+  bottom: -50px;
+  right: -50px;
+  background: radial-gradient(circle, rgba(255, 107, 157, 0.08) 0%, transparent 70%);
+}
+
+/* Badge Pill */
+.pf-badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 6px 16px;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent, #00d2ff);
+}
+.pulsing-dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--accent, #00d2ff);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--accent, #00d2ff);
+  animation: pulse-ring 2s infinite;
+}
+@keyframes pulse-ring {
+  0% { transform: scale(0.95); opacity: 0.8; }
+  50% { transform: scale(1.4); opacity: 0.3; }
+  100% { transform: scale(0.95); opacity: 0.8; }
+}
+
+/* Gradient Heading */
+.pf-gradient-heading {
+  background: linear-gradient(135deg, #ffffff 40%, rgba(0, 210, 255, 0.85) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* 3D Glass Card Container with Gyroscope & Spotlight */
+.pf-card-3d {
+  position: relative;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  overflow: hidden;
+  transition: transform 0.15s ease-out, border-color 0.4s ease, box-shadow 0.4s ease;
+}
+.card-glow-tracker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle 200px at var(--mouse-x, -500px) var(--mouse-y, -500px), var(--card-glow, rgba(0, 210, 255, 0.15)), transparent 80%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+.pf-card-3d:hover .card-glow-tracker {
+  opacity: 1;
+}
+.pf-card-3d:hover {
+  border-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+}
+.card-inner-content {
+  position: relative;
+  z-index: 2;
+  transform: translateZ(25px);
+  transition: transform 0.25s ease-out;
+}
+
+/* Progress Bar Improvements */
+.pf-progress-container {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.pf-progress-fill {
+  width: 0%;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  transition: width 1.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.progress-shimmer {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  animation: shimmer 2.2s infinite;
+}
+@keyframes shimmer {
+  100% { left: 100%; }
+}
+
+/* Feature Sub-cards */
+.pf-feature-box {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.pf-feature-box:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(0, 210, 255, 0.5);
+  box-shadow: 0 10px 20px rgba(0, 210, 255, 0.12);
+}
+.extra-small {
+  font-size: 0.72rem;
+}
+.tracking-wider {
+  letter-spacing: 0.75px;
+}
+</style>
+
+<!-- ===================== JAVASCRIPT ===================== -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // 1. Interactive 3D Card Hover & Mouse Spotlight Tracker
+  const cards = document.querySelectorAll('.pf-card-3d');
+
+  cards.forEach(card => {
+    const glowColor = card.getAttribute('data-glow-color') || 'rgba(0, 210, 255, 0.2)';
+    card.style.setProperty('--card-glow', glowColor);
+
+    card.addEventListener('mousemove', (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+
+      card.style.setProperty('--mouse-x', `${x}px`);
+      card.style.setProperty('--mouse-y', `${y}px`);
+
+      // 3D Tilt calculation
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+      const rotateX = ((y - centerY) / centerY) * -10;
+      const rotateY = ((x - centerX) / centerX) * 10;
+
+      card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
+    });
+
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`;
+    });
+  });
+
+  // 2. Viewport-Triggered Counter & Progress Bar Animations
+  let animationTriggered = false;
+  const section = document.querySelector('#about');
+
+  const runAnimations = () => {
+    // Fill Progress Bars
+    const progressBars = document.querySelectorAll('.pf-progress-fill');
+    progressBars.forEach(bar => {
+      const target = bar.getAttribute('data-width');
+      bar.style.width = target;
+    });
+
+    // Counting Numbers
+    const counters = document.querySelectorAll('.pf-stat[data-counter]');
+    counters.forEach(counter => {
+      const target = +counter.getAttribute('data-counter');
+      const duration = 1600; // ms
+      const startTime = performance.now();
+
+      const updateCount = (currentTime) => {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        // Easing out function
+        const easedProgress = 1 - Math.pow(1 - progress, 3);
+        const currentVal = Math.floor(easedProgress * target);
+
+        counter.innerText = currentVal + (target >= 10 ? '+' : '');
+
+        if (progress < 1) {
+          requestAnimationFrame(updateCount);
+        } else {
+          counter.innerText = target + (target >= 10 ? '+' : '');
+        }
+      };
+
+      requestAnimationFrame(updateCount);
+    });
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !animationTriggered) {
+        runAnimations();
+        animationTriggered = true;
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.25 });
+
+  if (section) observer.observe(section);
+});
+</script>
